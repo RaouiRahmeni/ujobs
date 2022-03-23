@@ -3,21 +3,30 @@ import "./signin.css";
 
 export default function Signin() {
   return (
-    <div class="signin-page">
-      <div class="form">
-        <form>
-          <input type="text" placeholder="email address" />
-          <input
-            type="password"
-            id="password"
-            placeholder="put your password"
-          />
-        </form>
-
-        <form class="signin-form">
-          <button type="button">SIGN IN</button>
-        </form>
-      </div>
+    <div className="signin">
+      <span className="signinTitle">Sign-up</span>
+      <form className="signinForm">
+        <label>Email</label>
+        <input
+          type="text"
+          className="signinInput"
+          placeholder="Enter your email..."
+        />
+        <label>Password</label>
+        <input
+          type="password"
+          className="signinInput"
+          placeholder="Enter your password..."
+        />
+        <button className="signinBtn" type="submit">
+          SIGN-IN
+        </button>
+      </form>
+      <button className="loginRegisterButton">
+        <a className="link" to="/signup">
+          SIGN-UP
+        </a>
+      </button>
     </div>
   );
 }

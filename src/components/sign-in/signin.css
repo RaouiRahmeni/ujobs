@@ -1,0 +1,49 @@
+.signin {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+}
+.signinForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.signinForm > label {
+  margin: 10px 0;
+}
+.signinInput {
+  background: transparent;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+.signinBtn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(128, 204, 240);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.loginRegisterButton {
+  margin-top: 50px;
+
+  top: 60px;
+  right: 20px;
+  background-color: rgb(128, 204, 240);
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
